@@ -6,13 +6,13 @@
 This project aims to fine-tune OpenAI's GPT-3.5 model for classifying movies into two categories: GOOD and BAD. The project leverages a rich dataset of IMDb top 1000 movies and uses the OpenAI API for model fine-tuning.
 
 ## Requirements
-Python 3.x
-OpenAI API
-pandas
-numpy
-matplotlib
-seaborn
-sklearn
+- Python 3.x
+- OpenAI API
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- sklearn
 
 ### To install the required libraries, run:
 
