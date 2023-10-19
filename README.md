@@ -49,6 +49,15 @@ The model was fine-tuned using a custom prompt that mimics a movie critic's bina
 ## Results
 The model was evaluated using various metrics, including accuracy, precision, and recall. The performance is visualized using bar plots and confusion matrices.
 
+![ConfMatrix4](https://github.com/pramitij/Fine-tune-GPT/assets/19503874/159e4a73-c4b8-4f69-bd05-5ec3338629b9)
+![ConfMatrix3](https://github.com/pramitij/Fine-tune-GPT/assets/19503874/363f3e8d-150a-437d-8e58-02c3905aad98)
+![ConfMatrix2](https://github.com/pramitij/Fine-tune-GPT/assets/19503874/f89444eb-e6a2-4554-82aa-6422d640c1d5)
+![confMatrix](https://github.com/pramitij/Fine-tune-GPT/assets/19503874/96ed1afe-b26c-4377-a0bf-f98f85c48be6)
+![BarPlot4](https://github.com/pramitij/Fine-tune-GPT/assets/19503874/4b6e2896-df18-4717-897b-a5da5dddf8fc)
+![BarPlot3](https://github.com/pramitij/Fine-tune-GPT/assets/19503874/f2f794fe-f329-4f85-9ab4-2999e27c09b6)
+![BarPlot2](https://github.com/pramitij/Fine-tune-GPT/assets/19503874/49bf26ea-d3da-4179-9822-0d1532a8f5ec)
+![BarPlot](https://github.com/pramitij/Fine-tune-GPT/assets/19503874/1dc8f16c-d590-4c12-ad5d-19f9c6054157)
+
 ## Usage
 ### API Setup
 Before interacting with the model, make sure you have obtained an API key from OpenAI. Set up your environment variable with the API key as follows:
