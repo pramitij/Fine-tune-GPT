@@ -1,0 +1,841 @@
+,User_Input,Expected_Response_Content,Expected_Response_Raw,Model_Response_Raw,Model_Response_Content
+0,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: The Third Man, MOVIE_DESCRIPTION: Pulp novelist Holly Martins travels to shadowy, postwar Vienna, only to find himself investigating the mysterious death of an old friend, Harry Lime., GENRE: Film-Noir, Mystery, Thriller'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B72dDdK9wSMPU1xMmt6XFj9DEP7n"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659367,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 114,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 115
+  }
+}",BAD
+1,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': ""MOVIE_NAME: Goldfinger, MOVIE_DESCRIPTION: While investigating a gold magnate's smuggling, James Bond uncovers a plot to contaminate the Fort Knox gold reserve., GENRE: Action, Adventure, Thriller""}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B72lUUv1XzDG5QkpQOW5F6OjuEnV"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659375,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 106,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 107
+  }
+}",BAD
+2,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Bridge of Spies, MOVIE_DESCRIPTION: During the Cold War, an American lawyer is recruited to defend an arrested Soviet spy in court, and then help the CIA facilitate an exchange of the spy for the Soviet captured American U2 spy plane pilot, Francis Gary Powers., GENRE: Drama, History, Thriller'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B72rysV0gO5pTq0lGM1u05RWdFOR"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659381,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 128,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 129
+  }
+}",BAD
+3,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Glengarry Glen Ross, MOVIE_DESCRIPTION: An examination of the machinations behind the scenes at a real estate office., GENRE: Crime, Drama, Mystery'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B72xoXDPTvxnIx9L0TUjRgYwJFNN"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659387,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 98,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 99
+  }
+}",BAD
+4,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Solaris, MOVIE_DESCRIPTION: A psychologist is sent to a station orbiting a distant planet in order to discover what has caused the crew to go insane., GENRE: Drama, Mystery, Sci-Fi'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B732vuUEtW9rK57BtAqk5pe7X5Lw"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659392,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 106,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 107
+  }
+}",BAD
+5,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': ""MOVIE_NAME: The Taking of Pelham One Two Three, MOVIE_DESCRIPTION: In New York, armed men hijack a subway car and demand a ransom for the passengers. Even if it's paid, how could they get away?, GENRE: Action, Crime, Thriller""}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B738qwJoX9pf4rAzcFeoqKHayMeV"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659398,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 118,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 119
+  }
+}",BAD
+6,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: The Last of the Mohicans, MOVIE_DESCRIPTION: Three trappers protect the daughters of a British Colonel in the midst of the French and Indian War., GENRE: Action, Adventure, Drama'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B73Dx2gGDcNEYvw6EGZjhWnW115g"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659403,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 104,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 105
+  }
+}",BAD
+7,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Clerks, MOVIE_DESCRIPTION: A day in the lives of two convenience clerks named Dante and Randal as they annoy customers, discuss movies, and play hockey on the store roof., GENRE: Comedy'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B73JQ4UhtSnfRYODVwtkdHxmc0oe"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659409,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 107,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 108
+  }
+}",BAD
+8,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: The African Queen, MOVIE_DESCRIPTION: In WWI Africa, a gin-swilling riverboat captain is persuaded by a strait-laced missionary to use his boat to attack an enemy warship., GENRE: Adventure, Drama, Romance'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B73O9FJsivz20mb6062XeK5xuIh4"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659414,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 113,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 114
+  }
+}",BAD
+9,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: A Little Princess, MOVIE_DESCRIPTION: A young girl is relegated to servitude at a boarding school when her father goes missing and is presumed dead., GENRE: Drama, Family, Fantasy'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B73UM82zUGkrDNd6eXrZc1j6KPpp"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659420,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 103,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 104
+  }
+}",BAD
+10,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Nelyubov, MOVIE_DESCRIPTION: A couple going through a divorce must team up to find their son who has disappeared during one of their bitter arguments., GENRE: Drama'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B73Z2dLadcs48Oh4Y6bPozWOd4N6"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659425,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 101,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 102
+  }
+}",BAD
+11,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Andrei Rublev, MOVIE_DESCRIPTION: The life, times and afflictions of the fifteenth-century Russian iconographer St. Andrei Rublev., GENRE: Biography, Drama, History'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B73fDZ7no6TV8o7OJJWxb8rRO3BI"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659431,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 104,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 105
+  }
+}",BAD
+12,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Do lok tin si, MOVIE_DESCRIPTION: This Hong Kong-set crime drama follows the lives of a hitman, hoping to get out of the business, and his elusive female partner., GENRE: Comedy, Crime, Drama'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B73kTqkYW0SgW1LDXjEWCKlWS7tK"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659436,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 110,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 111
+  }
+}",BAD
+13,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Only the Brave, MOVIE_DESCRIPTION: Based on the true story of the Granite Mountain Hotshots, a group of elite firefighters who risk everything to protect a town from a historic wildfire., GENRE: Action, Biography, Drama'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B73p0X6NvCWumznTxQUov75lGj1i"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659441,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 110,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 111
+  }
+}",BAD
+14,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Blazing Saddles, MOVIE_DESCRIPTION: In order to ruin a western town, a corrupt politician appoints a black Sheriff, who promptly becomes his most formidable adversary., GENRE: Comedy, Western'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B73veGNAa8CHdTKRFRl4WjoDW8Tu"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659447,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 105,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 106
+  }
+}",BAD
+15,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Dev.D, MOVIE_DESCRIPTION: After breaking up with his childhood sweetheart, a young man finds solace in drugs. Meanwhile, a teenage girl is caught in the world of prostitution. Will they be destroyed, or will they find redemption?, GENRE: Drama, Romance'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B741qk0if2W3LndymImmLGStSMbJ"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659453,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 119,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 120
+  }
+}",BAD
+16,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Ratatouille, MOVIE_DESCRIPTION: A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant., GENRE: Animation, Adventure, Comedy'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B746JCiH38t92VAY2RHml9Ppd15Y"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659458,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""GOOD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 101,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 102
+  }
+}",GOOD
+17,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Zelig, MOVIE_DESCRIPTION: ""Documentary"" about a man who can look and act like whoever he\'s around, and meets various famous people., GENRE: Comedy'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B74BUMj3UBsLO44Hb1COwL4tJo8h"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659463,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 100,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 101
+  }
+}",BAD
+18,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: First Blood, MOVIE_DESCRIPTION: A veteran Green Beret is forced by a cruel Sheriff and his deputies to flee into the mountains and wage an escalating one-man war against his pursuers., GENRE: Action, Adventure'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B74HjV9r1YkP32o4KlXSCF8GUtKL"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659469,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""GOOD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 109,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 110
+  }
+}",GOOD
+19,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': ""MOVIE_NAME: Kumonosu-jô, MOVIE_DESCRIPTION: A war-hardened general, egged on by his ambitious wife, works to fulfill a prophecy that he would become lord of Spider's Web Castle., GENRE: Drama, History""}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B74N2AVDnjB3PFCH59stPtqe2ulf"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659475,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 112,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 113
+  }
+}",BAD
+20,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Bajrangi Bhaijaan, MOVIE_DESCRIPTION: An Indian man with a magnanimous heart takes a young mute Pakistani girl back to her homeland to reunite her with her family., GENRE: Action, Adventure, Comedy'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B74SnBtQ6iZ0H3gYXu0PqsFk97W4"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659480,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""GOOD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 113,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 114
+  }
+}",GOOD
+21,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Vampire Hunter D: Bloodlust, MOVIE_DESCRIPTION: When a girl is abducted by a vampire, a legendary bounty hunter is hired to bring her back., GENRE: Animation, Action, Fantasy'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B74YJTfusumliLb3aUnF4DKNjLMk"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659486,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 104,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 105
+  }
+}",BAD
+22,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Withnail & I, MOVIE_DESCRIPTION: In 1969, two substance-abusing, unemployed actors retreat to the countryside for a holiday that proves disastrous., GENRE: Comedy, Drama'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B74d0q4VuoDUSjCjxXwCMezXxAv6"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659491,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 104,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 105
+  }
+}",BAD
+23,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': ""MOVIE_NAME: Guardians of the Galaxy Vol. 2, MOVIE_DESCRIPTION: The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father the ambitious celestial being Ego., GENRE: Action, Adventure, Comedy""}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B74i8apscL6rnehcr5skPMaruQhv"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659496,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 119,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 120
+  }
+}",BAD
+24,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: The Deer Hunter, MOVIE_DESCRIPTION: An in-depth examination of the ways in which the U.S. Vietnam War impacts and disrupts the lives of people in a small industrial town in Pennsylvania., GENRE: Drama, War'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B74o2RXRto2TpL8y26UjLor0JBeO"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659502,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""GOOD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 110,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 111
+  }
+}",GOOD
+25,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Sin City, MOVIE_DESCRIPTION: A movie that explores the dark and miserable town, Basin City, tells the story of three different people, all caught up in violent corruption., GENRE: Crime, Thriller'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B74twpwI0oSPYG675fLAWjYLsYkq"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659507,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 107,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 108
+  }
+}",BAD
+26,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: The French Connection, MOVIE_DESCRIPTION: A pair of NYC cops in the Narcotics Bureau stumble onto a drug smuggling job with a French connection., GENRE: Action, Crime, Drama'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B74z1NwEqB0xHUsNOjDeOSsq9Zfb"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659513,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 102,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 103
+  }
+}",BAD
+27,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': ""MOVIE_NAME: Enter the Dragon, MOVIE_DESCRIPTION: A secret agent comes to an opium lord's island fortress with other fighters for a martial-arts tournament., GENRE: Action, Crime, Drama""}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B754pTCWFYX2wlW8yo2fmuRaWFHK"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659518,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 103,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 104
+  }
+}",BAD
+28,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Nefes: Vatan Sagolsun, MOVIE_DESCRIPTION: Story of 40-man Turkish task force who must defend a relay station., GENRE: Action, Drama, Thriller'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B75ATfGkxwHmkVJsW7R8oTDAgxWE"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659524,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 103,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 104
+  }
+}",BAD
+29,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Das Experiment, MOVIE_DESCRIPTION: For two weeks, 20 male participants are hired to play prisoners and guards in a prison. The ""prisoners"" have to follow seemingly mild rules, and the ""guards"" are told to retain order without using physical violence., GENRE: Drama, Thriller'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B75GHu3UtuWd39SetVx9AqweMUid"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659530,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 126,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 127
+  }
+}",BAD
+30,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Airplane!, MOVIE_DESCRIPTION: A man afraid to fly must ensure that a plane lands safely after the pilots become sick., GENRE: Comedy'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B75MmIn3cM9GDojlJysk6JgIPH7T"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659536,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 94,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 95
+  }
+}",BAD
+31,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Le samouraï, MOVIE_DESCRIPTION: After professional hitman Jef Costello is seen by witnesses his efforts to provide himself an alibi drive him further into a corner., GENRE: Crime, Drama, Mystery'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B75RCifOjFYiU8vkI2YBYspYvpjK"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659541,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 110,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 111
+  }
+}",BAD
+32,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: G.O.R.A., MOVIE_DESCRIPTION: A slick young Turk kidnapped by extraterrestrials shows his great « humanitarian spirit » by outwitting the evil commander-in-chief of the planet of G.O.R.A., GENRE: Adventure, Comedy, Sci-Fi'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B75XPZBcvwflHYJXz73sUaH6StAT"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659547,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 119,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 120
+  }
+}",BAD
+33,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: The Fifth Element, MOVIE_DESCRIPTION: In the colorful future, a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon to keep Evil and Mr. Zorg at bay., GENRE: Action, Adventure, Sci-Fi'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B75cJ0YWBSmlCxBiNt7lB9F7tRNP"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659552,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 115,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 116
+  }
+}",BAD
+34,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': ""MOVIE_NAME: Mr. Smith Goes to Washington, MOVIE_DESCRIPTION: A naive man is appointed to fill a vacancy in the United States Senate. His plans promptly collide with political corruption, but he doesn't back down., GENRE: Comedy, Drama""}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B75i2vcPzYr17bJjM8EQPEzRe64R"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659558,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 112,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 113
+  }
+}",BAD
+35,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Love and Death, MOVIE_DESCRIPTION: In czarist Russia, a neurotic soldier and his distant cousin formulate a plot to assassinate Napoleon., GENRE: Comedy, War'}]",BAD,"{'role': 'assistant', 'content': 'BAD'}","{
+  ""id"": ""chatcmpl-8B75o1wnmESNtqIFQ5zjABP87eBIL"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659564,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 101,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 102
+  }
+}",BAD
+36,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Kaguyahime no monogatari, MOVIE_DESCRIPTION: Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady. The mysterious young princess enthralls all who encounter her, but ultimately she must confront her fate, the punishment for her crime., GENRE: Animation, Adventure, Drama'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B75t7QXN7Y4SS9QVaagI2uoYiYyU"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659569,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 140,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 141
+  }
+}",BAD
+37,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Tropa de Elite 2: O Inimigo Agora é Outro, MOVIE_DESCRIPTION: After a prison riot, former-Captain Nascimento, now a high ranking security officer in Rio de Janeiro, is swept into a bloody political dispute that involves government officials and paramilitary groups., GENRE: Action, Crime, Drama'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B75yL9kBt6sz6tYoqVZqhGc7oJEH"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659574,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 133,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 134
+  }
+}",BAD
+38,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Chinatown, MOVIE_DESCRIPTION: A private detective hired to expose an adulterer finds himself caught up in a web of deceit, corruption, and murder., GENRE: Drama, Mystery, Thriller'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B7681HG09JDcAgojODssiji0Eatf"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659584,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""GOOD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 106,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 107
+  }
+}",GOOD
+39,"[{'role': 'system', 'content': 'You are a movie critic binary classifier, that classifies a movie into two categories which are GOOD or BAD. You take following attributes as input from user MOVIE_NAME, MOVIE_DESCRIPTION, GENRE. You will output one of the two categories.'}, {'role': 'user', 'content': 'MOVIE_NAME: Kakushi-toride no san-akunin, MOVIE_DESCRIPTION: Lured by gold, two greedy peasants unknowingly escort a princess and her general across enemy lines., GENRE: Adventure, Drama'}]",GOOD,"{'role': 'assistant', 'content': 'GOOD'}","{
+  ""id"": ""chatcmpl-8B76DMxAM4PyJ2jfoBV8gDlU41Tbt"",
+  ""object"": ""chat.completion"",
+  ""created"": 1697659589,
+  ""model"": ""ft:gpt-3.5-turbo-0613:personal::8Ax6vzAF"",
+  ""choices"": [
+    {
+      ""index"": 0,
+      ""message"": {
+        ""role"": ""assistant"",
+        ""content"": ""BAD""
+      },
+      ""finish_reason"": ""stop""
+    }
+  ],
+  ""usage"": {
+    ""prompt_tokens"": 107,
+    ""completion_tokens"": 1,
+    ""total_tokens"": 108
+  }
+}",BAD
