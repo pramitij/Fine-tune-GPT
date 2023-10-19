@@ -16,7 +16,7 @@ This project aims to fine-tune OpenAI's GPT-3.5 model for classifying movies int
 
 ### To install the required libraries, run:
 
-```
+```python
 pip install openai pandas numpy matplotlib seaborn scikit-learn
 Dataset
 The dataset used for this project is imdb_top_1000.csv, which includes various attributes like movie names, genres, and descriptions.
@@ -25,22 +25,22 @@ The dataset used for this project is imdb_top_1000.csv, which includes various a
 ## Fine-Tuning Process
 The model was fine-tuned using a custom prompt that mimics a movie critic's binary classification. The prompt takes three attributes as input: MOVIE_NAME, MOVIE_DESCRIPTION, and GENRE. Below is a sample prompt interaction:
 
-```
+```python
 {
-"messages": [
-{
-"role": "system",
-"content": "You are a movie critic binary classifer..."
-},
-{
-"role": "user",
-"content": "MOVIE_NAME: The Godfather..."
-},
-{
-"role": "assistant",
-"content": "GOOD"
-}
-]
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a movie critic binary classifer..."
+    },
+    {
+      "role": "user",
+      "content": "MOVIE_NAME: The Godfather..."
+    },
+    {
+      "role": "assistant",
+      "content": "GOOD"
+    }
+  ]
 }
 >
 ```
@@ -51,13 +51,13 @@ The model was evaluated using various metrics, including accuracy, precision, an
 ### API Setup
 Before interacting with the model, make sure you have obtained an API key from OpenAI. Set up your environment variable with the API key as follows:
 
-```
+```python
 export OPENAI_API_KEY=your_openai_api_key_here
 ```
 
 Or you can set it programmatically in your Python script:
 
-```
+```python
 import openai
 
 openai.api_key = "your_openai_api_key_here"
@@ -67,7 +67,7 @@ openai.api_key = "your_openai_api_key_here"
 ### API Call Syntax
 To interact with the fine-tuned GPT-3.5 model, you can use the OpenAI API as shown below:
 
-```
+```python
 import openai
 
 response = openai.Completion.create(
@@ -81,7 +81,7 @@ max_tokens=10
 ```
 ### Extract the model's response
 
-```
+```python
 model_response = response.choices[0].text.strip()
 ```
 
