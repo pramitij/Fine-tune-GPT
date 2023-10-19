@@ -18,9 +18,11 @@ This project aims to fine-tune OpenAI's GPT-3.5 model for classifying movies int
 
 ```python
 pip install openai pandas numpy matplotlib seaborn scikit-learn
-Dataset
-The dataset used for this project is imdb_top_1000.csv, which includes various attributes like movie names, genres, and descriptions.
 ```
+
+### Dataset
+The dataset used for this project is imdb_top_1000.csv, which includes various attributes like movie names, genres, and descriptions.
+
 
 ## Fine-Tuning Process
 The model was fine-tuned using a custom prompt that mimics a movie critic's binary classification. The prompt takes three attributes as input: MOVIE_NAME, MOVIE_DESCRIPTION, and GENRE. Below is a sample prompt interaction:
